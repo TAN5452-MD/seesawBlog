@@ -12,6 +12,11 @@
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "antd": "^5.5.2",
+    "less": "^2.7.3",
+    "mockjs": "^1.1.0",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -19,6 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^8.41.0",
+    "sass": "^1.62.1",
     "stylelint": "^15.6.2",
     "stylelint-config-standard-scss": "^9.0.0"
   }
