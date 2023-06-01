@@ -1,13 +1,14 @@
 import type { NextPage } from "next";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+interface LayoutProps {
+  children: React.ReactNode;
+}
 
-const Layout: NextPage = (props: any) =>{
-  const chrildren = props.children;
+const Layout: NextPage = ({children}:LayoutProps) =>{
   return (
-    <div style={{width:"100%",height:"100%"}}>
-    <Navbar></Navbar>
-    <main>{chrildren}</main>
+
+    <main>{children}</main>
     <Footer></Footer>
     </div>
   )

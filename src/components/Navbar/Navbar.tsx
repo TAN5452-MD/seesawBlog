@@ -4,8 +4,10 @@ import style from "./index.module.scss";
 import {navs} from './config'
 import Link from "next/link";
 import { Segmented } from "antd";
-
+import { useRouter } from "next/router";
 const Navbar: NextPage = ({}) =>{
+  //const {pathname, push} = useRouter()
+  
   return (
     <div className={style.navbar}>
       <section style={{marginRight:'60px'}}> Seesaw </section>

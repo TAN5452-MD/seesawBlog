@@ -1,9 +1,9 @@
-import type { NextPage } from "next"
-import Layout from '../components/Layout/Layout'
 
- const Page: NextPage = () => {
+import type { NextPage } from "next";
+const Page: NextPage = () =>{
   return (
-    <Layout/>
+      <div>123</div>
   )
 }
+
 export default Page

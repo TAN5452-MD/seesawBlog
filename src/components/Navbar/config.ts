@@ -5,7 +5,7 @@ export const navs = [
   },
   {
     label:'咨询',
-    value:"/"
+    value:"/Info"
   },
 
 ]
