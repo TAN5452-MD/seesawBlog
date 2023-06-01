@@ -1,0 +1,16 @@
+.navbar {
+  height: 60px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navitem{
+  color: black;
+  text-decoration:none;
+  padding-right: 40px;
+  &:hover{
+    color: gainsboro;
+    transition: scale(1.2);
+  }
+}
