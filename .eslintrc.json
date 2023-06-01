@@ -1,0 +1,3 @@
+{
+  "extends":["nuxt/core-web-vitals","eslint:recommended"]
+}
